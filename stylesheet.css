@@ -34,7 +34,7 @@ ul {
     background-color: #b9d5fd;
   }
 
-  #logo{
+  #logo{/*styling voor het logo in de navbar*/
     float: left;
     width: 95px;
     height: 47px;
