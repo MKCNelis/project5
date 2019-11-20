@@ -53,3 +53,7 @@ ul {
   .nintendopage{/*speciale styling voor Nintendo*/
     background-color: var(--colorOfNintendo) ;
   }
+.flavortext
+{
+  background-color: rgb(156, 156, 156);
+}
