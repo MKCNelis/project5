@@ -1,3 +1,11 @@
+/*
+    created: 7-nov-2019, 11:31
+    author : MaikelNelis
+*/
+:root{
+  --colorOfNintendo:  #e4000f;/*nintendo red*/
+  --colorOfXbox     :#0e7a0d;/*Xbox Green*/
+}
 body{
     background: lightblue;
     font-family: 'Changa', sans-serif;
@@ -39,4 +47,7 @@ ul {
     width: 95px;
     height: 47px;
     background-color: rgb(168, 168, 168);
+  }
+  .nintendopage{/*speciale styling voor Nintendo*/
+    background-color: var(--colorOfNintendo) ;
   }
