@@ -9,6 +9,7 @@
 body{
     background: lightblue;
     font-family: 'Changa', sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
 
 ul {
@@ -20,7 +21,8 @@ ul {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Changa', sans-serif;
+    font-family: 'Russo One', sans-serif;
 
     
   }
@@ -51,3 +53,7 @@ ul {
   .nintendopage{/*speciale styling voor Nintendo*/
     background-color: var(--colorOfNintendo) ;
   }
+.flavortext
+{
+  background-color: rgb(156, 156, 156);
+}
