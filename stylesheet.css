@@ -57,6 +57,7 @@ ul {
 .flavortext
 {
   background-color: rgb(156, 156, 156);
+<<<<<<< HEAD
 }
 .xboxpage{
   background-color: var(--colorOfXbox);
@@ -70,4 +71,6 @@ ul {
   width: 1024px;
   position: relative;
   margin: 0px auto;
+=======
+>>>>>>> parent of 337005f... Merge branch 'master' into Runa
 }
