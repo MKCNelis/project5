@@ -1,13 +1,14 @@
 /*
-    created: 7-nov-2019, 11:31
-    author : MaikelNelis
+    created: 21-11-2019, 11:31
+    author : Tom Schoon
 */
 :root{
   --colorOfNintendo:  #e4000f;/*nintendo red*/
-  --colorOfXbox     :#0e7a0d;/*Xbox Green*/
+  --colorOfXbox     
+
 }
 body{
-    background: lightblue;
+    background: whitesmoke;
     font-family: 'Changa', sans-serif;
     font-family: 'Russo One', sans-serif;
 }
@@ -19,7 +20,7 @@ ul {
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     position: -webkit-sticky;
-    position: sticky;
+    position: none;
     top: 0;
     font-family: 'Changa', sans-serif;
     font-family: 'Russo One', sans-serif;
@@ -47,20 +48,26 @@ ul {
   #logo{/*styling voor het logo in de navbar*/
     float: left;
     width: 95px;
-    height: 47px;
+    height: 58px;
     background-color: rgb(168, 168, 168);
   }
   .nintendopage{/*speciale styling voor Nintendo*/
     background-color: var(--colorOfNintendo) ;
-background: -moz-linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
-background: linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4000f",endColorstr="#1bfff0",GradientType=1);
   }
 .flavortext
 {
   background-color: rgb(156, 156, 156);
 }
-.flavortext{
-  background-color: aliceblue;
+.xboxpage{
+  background-color: var(--colorOfXbox);
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(91,218,97,1) 100%);;
+}
+.footercolor{
+  background-color: black;
+}
+.center-container{
+  width: 1024px;
+  position: relative;
+  margin: 0px auto;
 }
