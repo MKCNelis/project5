@@ -1,6 +1,16 @@
+/*
+    created: 21-11-2019, 11:31
+    author : Tom Schoon
+*/
+:root{
+  --colorOfNintendo:  #e4000f;/*nintendo red*/
+  --colorOfXbox     
+
+}
 body{
-    background: lightblue;
+    background: whitesmoke;
     font-family: 'Changa', sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
 
 ul {
@@ -10,9 +20,10 @@ ul {
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     position: -webkit-sticky;
-    position: sticky;
+    position: none;
     top: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: 'Changa', sans-serif;
+    font-family: 'Russo One', sans-serif;
 
     
   }
@@ -37,6 +48,26 @@ ul {
   #logo{/*styling voor het logo in de navbar*/
     float: left;
     width: 95px;
-    height: 47px;
+    height: 58px;
     background-color: rgb(168, 168, 168);
   }
+  .nintendopage{/*speciale styling voor Nintendo*/
+    background-color: var(--colorOfNintendo) ;
+  }
+.flavortext
+{
+  background-color: rgb(156, 156, 156);
+}
+.xboxpage{
+  background-color: var(--colorOfXbox);
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(91,218,97,1) 100%);;
+}
+.footercolor{
+  background-color: black;
+}
+.center-container{
+  width: 1024px;
+  position: relative;
+  margin: 0px auto;
+}
