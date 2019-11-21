@@ -1,10 +1,12 @@
 /*
     created: 7-nov-2019, 11:31
     author : MaikelNelis
+    last change: 21-11-2019 by Runa Koekkoek
 */
 :root{
   --colorOfNintendo:  #e4000f;/*nintendo red*/
   --colorOfXbox     :#0e7a0d;/*Xbox Green*/
+  --colorOfps4     :#002366; /*Ps4blue*/
 }
 body{
     background: lightblue;
@@ -56,4 +58,9 @@ ul {
 .flavortext
 {
   background-color: rgb(156, 156, 156);
+}
+.ps4page{ /*speciale styling voor Ps4*/
+  background-color: var(--colorOfps4); 
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,35,102,1) 100%);
 }
