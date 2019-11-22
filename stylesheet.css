@@ -2,11 +2,13 @@
     created: 21-11-2019, 11:31
     author : Tom Schoon
 */
+
 :root{
-  --colorOfNintendo:  #e4000f;/*nintendo red*/
-  --colorOfXbox     :#0e7a0d;/*Xbox Green*/
-  --ColorOfIndex	:#FFFFFF;/*Index*/
+  --colorOfNintendo: 	 #e4000f;/*nintendo red*/
+  --colorOfXbox      	:#0e7a0d;/*Xbox Green*/
+  --ColorOfIndex		:#FFFFFF;/*Index*/
 }
+
 body{
     background: whitesmoke;
     font-family: 'Changa', sans-serif;
@@ -23,61 +25,63 @@ ul {
     position: none;
     top: 0;
     font-family: 'Changa', sans-serif;
-    font-family: 'Russo One', sans-serif;
-
-    
-  }
+    font-family: 'Russo One', sans-serif; 
+}
   
-  li {
+li {
     float: left;
     font-family: 'Changa', sans-serif;
-  }
+}
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  li a:hover {
-    background-color: #b9d5fd;
-  }
+li a:hover {
+	background-color: #b9d5fd;
+}
 
-  #logo{/*styling voor het logo in de navbar*/
+#logo{/*styling voor het logo in de navbar*/
     float: left;
     width: 95px;
     height: 58px;
-    background-color: rgb(168, 168, 168);
-  }
-  .nintendopage{/*speciale styling voor Nintendo*/
-    background-color: var(--colorOfNintendo) ;
-  }
+	background-color: rgb(168, 168, 168);
+}
+  
+.nintendopage{/*speciale styling voor Nintendo*/
+	background-color: var(--colorOfNintendo) ;
+}
+  
 .flavortext
 {
-  background-color: rgb(156, 156, 156);
-}
-.xboxpage{
-  background-color: var(--colorOfXbox);
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(91,218,97,1) 100%);;
-}
-.footercolor{
-  background-color: black;
-}
-<<<<<<< HEAD
-.flavortext{
-  background-color: aliceblue;
+	background-color: rgb(156, 156, 156);
 }
 
-  .center-container{
-	  width: 1024px;
-	  position: relative;
-	  margin: 0px auto;
-  }
+.xboxpage{
+	background-color: var(--colorOfXbox);
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(91,218,97,1) 100%);;
+}
+
+.footercolor{
+	background-color: black;
+}
+
+.flavortext{
+	background-color: aliceblue;
+}
+
+.center-container{
+	width: 1024px;
+	position: relative;
+	margin: 0px auto;
+}
   
-  .footercolor{
+.footercolor{
 	background-color: black;
 	font
 }
@@ -89,7 +93,7 @@ ul {
 }
 
 .center-container{
-  width: 1024px;
-  position: relative;
-  margin: 0px auto;
+	width: 1024px;
+	position: relative;
+	margin: 0px auto;
 }
