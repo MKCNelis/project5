@@ -53,6 +53,10 @@ ul {
   }
   .nintendopage{/*speciale styling voor Nintendo*/
     background-color: var(--colorOfNintendo) ;
+    background: -moz-linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
+background: linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4000f",endColorstr="#1bfff0",GradientType=1);
   }
 .flavortext
 {
@@ -66,7 +70,7 @@ ul {
 .footercolor{
   background-color: black;
 }
-<<<<<<< HEAD
+
 .flavortext{
   background-color: aliceblue;
 }
