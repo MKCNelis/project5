@@ -6,9 +6,8 @@
 :root{
   --colorOfNintendo: 	 #e4000f;/*nintendo red*/
   --colorOfXbox      	:#0e7a0d;/*Xbox Green*/
-  --ColorOfIndex		:#FFFFFF;/*Index*/
-  --ColorOfPC			 :#B0E0E6;/*PC*/
-  --ColorOfPs4    : #003791; 
+  --ColorOfIndex		:#FF0000;/*Index*/
+  --ColorOfPC			:#B0E0E6;/*PC*/
 }
 
 body{
@@ -107,14 +106,14 @@ HEAD
 
 .indexPage{
 	background-color: var(ColorOfIndex);
-	background: rgb(35,35,35);
-	background: linear-gradient(0deg, rgba(35,35,35,1) 0%, rgba(241,255,55,1) 100%);
+	background: rgb(225,225,225);
+	background: linear-gradient(0deg, rgba(225,225,225,1) 0%, rgba(255,55,55,1) 100%);
 }
 
 .pcPagina{
 	background-color: var(--ColorOfPC);
 	background: rgb(255,255,255);
-	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(135,206,250,1) 100%);;
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(135,206,250,1) 100%);
 }
 
 .center-container{
