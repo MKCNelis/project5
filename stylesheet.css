@@ -152,8 +152,8 @@ span.c {
 .ps4page {
 background-color: #003791;
 background: rgb(255,255,255);
-background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 35%);
-background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 35%);
-background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 35%);
+background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 100%);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#003791",GradientType=1);
 }
