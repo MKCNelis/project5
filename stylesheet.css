@@ -157,3 +157,7 @@ background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,55,145,
 background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#003791",GradientType=1);
 }
+.weetje{
+  border: 2px;
+  background: rgba(255,255,255,1);
+}
