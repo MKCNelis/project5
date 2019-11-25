@@ -3,31 +3,76 @@
     Name Document:  Index.html
     Author: Tom Schoon
     Date of creation:   19-11-2019
-    Last change: 19-11-2019
+    Last change: 25-11-2019
 -->
 
 <html>
-<!---hier heb ik de titel en mijn css file toegevoegd-->
     <head>
-        <title> Formula 1 2019 </title>
+		<!---Hier wordt de title en link naar CSS bestand toegevoegd.-->
+        <title>Formula 1 2019</title>
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Changa%7CRusso+One&display=swap" rel="stylesheet">
     </head>
     <body class='XboxPage'>
         <img id="logo" src="img/f12019.png">
         <div class="clearer"></div>
         <ul>
+			<!--Navigatie bar-->
             <li><a href="index.html">Home</a></li>
             <li><a href="pc.html">PC</a></li>
             <li><a href="xbox.html">Xbox</a></li>
             <li><a href="ps4.html">Playstation 4</a></li>
             <li><a href="nintendo.html">Switch</a></li>
         </ul>
+		<!--Hier wordt een header gecreert die in het midden staat.-->
+		<center><h2>Playstation 4</h2></center>
+		<!--Klikbare tekst om naar onder te gaan.-->
+		<center><a href="#bottom">Klik hier om naar beneden te gaan.</a><br></center><br>
+        <!--Voeg een foto toe voor opmaak en plaats hem in het midden.-->
         <center>
-            <img src="Fotocoverps4.jpg" width="500px" height="500px">
-        </center>
-
-    
-
+		<img src="foto's/Fotocoverps4.jpg" width="500px" height="500px"> </center>
+		<!--Alles beneden tussen de 'p' is tekst voor op de website.-->
+		<center><p>Formula 1 2019 is een racing game die nu ook op de Playstation 4 uit is gekomen! 
+			Hieronder vind je alles over de controls op dit platform en de launch trailer waarin je de gameplay ziet. 
+			Elke Playstation 4 zou dit spel aan moeten kunnen.</p></center><hr>
+		<center>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/iyz9xU-h9Ms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/XEr7M1MZOio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     	</center>
+		<hr><br>
+		</div>
+		<!--Voeg een tabel toe voor het benoemen van de toetsen.-->
+		<center><table border="2" width="50%">
+			<!--Data-->
+			<tr><th>Toets Combinatie</th><td><b>Effect</b></td></tr>
+			<tr><th>L</th><td>Sturen</td></tr>
+			<tr><th>R</th><td>Camera free look</td></tr>
+			<tr><th>R3</th><td>Naar achteren kijken</td></tr>
+			<tr><th>R1</th><td>Andere camera</td></tr>
+			<tr><th>R2</th><td>Versnellen</td></tr>
+			<tr><th>L1</th><td>Radio en spraakinstellingen</td></tr>
+			<tr><th>L2</th><td>Achteruit/remmen</td></tr>
+			<tr><th>L3</th><td>Dash</td></tr>
+			<tr><th>▢</th><td>Naar beneden schakelen</td></tr>
+			<tr><th>△</th><td>Activeer DRS</td></tr>
+			<tr><th>X</th><td>Naar boven schakelen</td></tr>
+			<tr><th>L + X</th><td>Ontwijken / Springen (in de buurt van een richel)</td></tr>
+			<tr><th>◯</th><td>Achteruit Kijken</td></tr>
+			<tr><th>D-Pad</th><td>Multi Function Display (MFD)</td></tr>
+			<tr><th>Touchpad</th><td>Flashback</td></tr>
+			<tr><th>Options</th><td>Pauze menu</td></tr>
+		</table></center><hr><br>
+		<!--Zorg ervoor dat het script weet dat dit de bodem is wanneer er op de tekst wordt geklikt om naar beneden te gaan.-->
+		<a name="bottom"></a>
+		<!--Als er op de tekst beneden wordt geklikt, zal de site herladen worden vanaf de bovenste pagina.-->
+		<center><a href="#top">Klik hier om naar boven te gaan.</a></center>
+		<!--Informatie voor helemaal onderin de pagina met een e-mail address-->
+		<div class="footercolor"><hr>
+			<center><footer style="color: white;">
+			<p>Created by Tom Kevin Maikel Runa</p>
+			<p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+		</footer></center>
+	</div>
     </body>
 </html>
-

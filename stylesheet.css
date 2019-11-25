@@ -59,6 +59,22 @@ li a:hover {
 	background: linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4000f",endColorstr="#1bfff0",GradientType=1);
   }
+HEAD
+.flavortext
+{
+  background-color: rgb(156, 156, 156);
+}
+HEAD
+.ps4page{ /*speciale styling voor Ps4*/
+  background-color: var(--colorOfps4); 
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,35,102,1) 100%);
+}
+
+.flavortext{
+  background-color: aliceblue;
+}
+
 .flavortext{
   background-color: aliceblue;
 }
