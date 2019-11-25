@@ -7,6 +7,7 @@
   --colorOfNintendo: 	 #e4000f;/*nintendo red*/
   --colorOfXbox      	:#0e7a0d;/*Xbox Green*/
   --ColorOfIndex		:#FFFFFF;/*Index*/
+  --ColorOfPC			:#B0E0E6;/*PC*/
 }
 
 body{
@@ -54,9 +55,9 @@ li a:hover {
   .nintendopage{/*speciale styling voor Nintendo*/
     background-color: var(--colorOfNintendo) ;
     background: -moz-linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
-background: linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4000f",endColorstr="#1bfff0",GradientType=1);
+	background: -webkit-linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
+	background: linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4000f",endColorstr="#1bfff0",GradientType=1);
   }
 .flavortext
 {
@@ -81,6 +82,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4000f",endCo
 	width: 1024px;
 	position: relative;
 	margin: 0px auto;
+	font-family: arial;
 }
   
 .footercolor{
@@ -92,6 +94,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4000f",endCo
 	background-color:var(ColorOfIndex);
 	background: rgb(35,35,35);
 	background: linear-gradient(0deg, rgba(35,35,35,1) 0%, rgba(241,55,55,1) 100%);
+}
+
+.pcPagina{
+	background-color:var(ColorOfPC);
+	background: rgb(176,195,230);
+	background: linear-gradient(0deg, rgba(176,195,230,1) 0%, rgba(176,224,230,1) 100%);
 }
 
 .center-container{
