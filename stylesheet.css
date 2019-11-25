@@ -108,7 +108,7 @@ HEAD
 .indexPage{
 	background-color: var(ColorOfIndex);
 	background: rgb(225,225,225);
-	background: linear-gradient(0deg, rgba(225,225,225,1) 0%, rgba(255,55,55,1) 100%);
+	background: linear-gradient(0deg, rgba(225,225,225,1) 0%, rgba(255,75,55,1) 100%);
 }
 
 .pcPagina{
