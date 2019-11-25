@@ -4,8 +4,8 @@
 */
 :root{
   --colorOfNintendo:  #e4000f;/*nintendo red*/
-  --colorOfXbox     
-
+  --colorOfXbox     :#0e7a0d;/*Xbox Green*/
+  --ColorOfIndex	:#FFFFFF;/*Index*/
 }
 body{
     background: whitesmoke;
@@ -53,11 +53,13 @@ ul {
   }
   .nintendopage{/*speciale styling voor Nintendo*/
     background-color: var(--colorOfNintendo) ;
+    background: -moz-linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
+background: linear-gradient(90deg, rgba(228,0,15,1) 0%, rgba(117,117,117,1) 35%, rgba(27,255,240,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4000f",endColorstr="#1bfff0",GradientType=1);
   }
-.flavortext
-{
-  background-color: rgb(156, 156, 156);
-<<<<<<< HEAD
+.flavortext{
+  background-color: aliceblue;
 }
 .xboxpage{
   background-color: var(--colorOfXbox);
@@ -67,10 +69,55 @@ ul {
 .footercolor{
   background-color: black;
 }
+
+.flavortext{
+  background-color: aliceblue;
+}
+
+  .center-container{
+	  width: 1024px;
+	  position: relative;
+	  margin: 0px auto;
+  }
+  
+  .footercolor{
+	background-color: black;
+	font
+}
+
+.indexPage{
+	background-color: var(ColorOfIndex);
+	background: rgb(35,35,35);
+	background: linear-gradient(0deg, rgba(35,35,35,1) 0%, rgba(241,55,55,1) 100%);
+}
+
 .center-container{
   width: 1024px;
   position: relative;
   margin: 0px auto;
-=======
->>>>>>> parent of 337005f... Merge branch 'master' into Runa
+}
+span.a {
+  display: block; /* the default for span */
+  width: 80%;
+  height: 30%;
+  padding: 5px;
+  border: 1px solid gainsboro;  
+  background-color: rgba(245, 245, 245, 0.459); 
+}
+
+span.b {
+  display: block; /* the default for span */
+  width: 30%;
+  height: 30%;
+  padding: 5px;
+  border: 1px solid gainsboro;  
+  background-color: rgba(245, 245, 245, 0.459); 
+}
+span.c {
+  display: block; /* the default for span */
+  width: 40%;
+  height: 100%;
+  padding: 5px;
+  border: 1px solid gainsboro;  
+  background-color: rgba(245, 245, 245, 0.459); 
 }
