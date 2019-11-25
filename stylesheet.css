@@ -7,7 +7,8 @@
   --colorOfNintendo: 	 #e4000f;/*nintendo red*/
   --colorOfXbox      	:#0e7a0d;/*Xbox Green*/
   --ColorOfIndex		:#FFFFFF;/*Index*/
-  --ColorOfPC			:#B0E0E6;/*PC*/
+  --ColorOfPC			 :#B0E0E6;/*PC*/
+  --ColorOfPs4    : #003791; 
 }
 
 body{
@@ -144,5 +145,15 @@ span.c {
   height: 100%;
   padding: 5px;
   border: 1px solid gainsboro;  
-  background-color: rgba(245, 245, 245, 0.459); 
+  background-color: rgba(245, 245, 245, 0.459);
+
+}
+
+.ps4page {
+background-color: #003791;
+background: rgb(255,255,255);
+background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 35%);
+background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 35%);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,55,145,1) 35%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#003791",GradientType=1);
 }
