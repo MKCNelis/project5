@@ -174,3 +174,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
 .checked{
   color: orange;
 }
+.review{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
