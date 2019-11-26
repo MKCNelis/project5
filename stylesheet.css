@@ -171,7 +171,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
   border: 2px;
   background: rgba(255,255,255,1);
 }
-
-.checked {
-  color: yellow
+.checked{
+  color: orange;
+}
+.review{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
