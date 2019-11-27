@@ -22,6 +22,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+	/*Voeg een achtergrond kleur toe*/
     background-color: rgb(0, 0, 0);
     position: -webkit-sticky;
     position: none;
@@ -30,15 +31,17 @@ ul {
     font-family: 'Russo One', sans-serif;
 
     
-  }
+ }
   
 li {
+	/*Floating naar de linker kant, en pas een font lettertype toe*/
     float: left;
     font-family: 'Changa', sans-serif;
 }
   
 li a {
     display: block;
+	/*Kleur naar wit, padding naar 14 en 16 pixels.*/
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -46,6 +49,7 @@ li a {
 }
   
 li a:hover {
+	/*Wanneer je met je muis eroverheen gaat, geef het een kleurtje.*/
 	background-color: #b9d5fd;
 }
 
@@ -53,6 +57,7 @@ li a:hover {
     float: left;
     width: 95px;
     height: 58px;
+	/*Achtergrond kleur*/
     background-color: rgb(168, 168, 168);
   }
   .nintendopage{/*speciale styling voor Nintendo*/
@@ -94,6 +99,7 @@ HEAD
 }
 
 .center-container{
+	/*Wordt gebruikt voor het centreren van tekst en tabellen.*/
 	width: 1024px;
 	position: relative;
 	margin: 0px auto;
