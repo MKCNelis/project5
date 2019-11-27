@@ -3,20 +3,20 @@
     author : Tom Schoon
     last update 25-11-2019
 */
-
+/*dit is de root waar de standaard achtergronden geregeld in werken*/
 :root{
   --colorOfNintendo: 	 #e4000f;/*nintendo red*/
   --colorOfXbox      	:#0e7a0d;/*Xbox Green*/
   --ColorOfIndex		:#FF0000;/*Index*/
   --ColorOfPC			:#B0E0E6;/*PC*/
 }
-
+/*hier is het lettertype veranderd*/
 body{
     background: whitesmoke;
     font-family: 'Changa', sans-serif;
     font-family: 'Russo One', sans-serif;
 }
-
+/*hier word alles van de navigatie bar geregeld*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -49,7 +49,7 @@ li a:hover {
 	background-color: #b9d5fd;
 }
 
-#logo{/*styling voor het logo in de navbar*/
+#logo{ /*styling voor het logo in de navbar*/
     float: left;
     width: 95px;
     height: 58px;
@@ -63,7 +63,8 @@ li a:hover {
     background: linear-gradient(180deg, rgba(228,0,15,1) 0%, rgba(255,255,255,1) 50%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e4000f",endColorstr="#ffffff",GradientType=1);
   }
-.flavortext
+/*background voor de flavor tekst*/
+  .flavortext
 {
   background-color: rgb(156, 156, 156);
 }
@@ -77,17 +78,13 @@ HEAD
 .flavortext{
   background-color: aliceblue;
 }
-
-.flavortext{
-  background-color: aliceblue;
-}
-
+/*background van de pagina xbox*/
 .xboxpage{
 	background-color: var(--colorOfXbox);
 	background: rgb(255,255,255);
 	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(91,218,97,1) 100%);;
 }
-
+/*de background van de footer*/
 .footercolor{
 	background-color: black;
 }
@@ -103,29 +100,17 @@ HEAD
 	font-family: arial;
 }
   
-.footercolor{
-	background-color: black;
-}
-
+/*background van de index*/
 .indexPage{
 	background-color: var(ColorOfIndex);
 	background: rgb(225,225,225);
 	background: linear-gradient(0deg, rgba(225,225,225,1) 0%, rgba(255,55,55,1) 100%);
 }
-
+/*background van de pc*/
 .pcPagina{
 	background-color: var(--ColorOfPC);
 	background: rgb(255,255,255);
 	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(135,206,250,1) 100%);
-}
-
-.xboxpage{
-  background-color: var(--colorOfXbox);
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(91,218,97,1) 100%);;
-}
-.footercolor{
-  background-color: black;
 }
 .center-container{
   width: 1024px;
